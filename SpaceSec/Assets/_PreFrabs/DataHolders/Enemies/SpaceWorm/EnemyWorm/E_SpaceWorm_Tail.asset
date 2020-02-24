@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f689d8a9542220742be29bedefa052ec, type: 3}
+  m_Name: E_SpaceWorm_Tail
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  flashOnHealthChange: 1
+  flashTime: 1
+  deathAnim: {fileID: 1509651475627542, guid: 123ab58ceee78f64c8854fdc53983779, type: 2}
+  hitAudio: Snake_Hit
+  deathAudio: Snake_Death_Body
+  taggedToDamage:
+  - Player
+  - Asteroid
+  - CargoShip
+  - Shield
+  taggedToDestroy:
+  - CargoShip
+  - CameraWall
+  - Shield
+  taggedToSeek: []
+  taggedToEat: []
+  taggedToTaunt:
+  - FriendlyBullet
+  speed: 10
+  rotateSpeed: 900
+  distance: 1.5
+  integrityRange: 3
+  seekingRange: 0
+  mergeDistance: 2
+  damage: 1
+  bodySprite: {fileID: 21300000, guid: 063e22beef6e08843be558932b557d20, type: 3}
+  rotations: []
+  canGrow: 0
+  growLimit: 0
+  head: {fileID: 1704315820572624, guid: 4aca6214d69532c459c29a507ca66173, type: 2}
+  damageFrequency: 0.5
+  tag: SpaceWormTail
+  seekPriorityList: []

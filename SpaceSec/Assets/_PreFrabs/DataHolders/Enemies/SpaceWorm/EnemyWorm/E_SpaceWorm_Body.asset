@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f689d8a9542220742be29bedefa052ec, type: 3}
+  m_Name: E_SpaceWorm_Body
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  flashOnHealthChange: 1
+  flashTime: 1
+  deathAnim: {fileID: 1509651475627542, guid: 123ab58ceee78f64c8854fdc53983779, type: 2}
+  hitAudio: Snake_Hit
+  deathAudio: Snake_Death_Body
+  taggedToDamage:
+  - Player
+  - Asteroid
+  - CargoShip
+  - Shield
+  taggedToDestroy:
+  - CargoShip
+  - CameraWall
+  - Shield
+  taggedToSeek: []
+  taggedToEat: []
+  taggedToTaunt:
+  - FriendlyBullet
+  speed: 10
+  rotateSpeed: 900
+  distance: 1.5
+  integrityRange: 3
+  seekingRange: 0
+  mergeDistance: 2
+  damage: 1
+  bodySprite: {fileID: 21300000, guid: 45f8b3ebc4cebe249b532b3196b0c2fc, type: 3}
+  rotations:
+  - {fileID: 21300000, guid: 9158700ee297c984ab0401273eead522, type: 3}
+  - {fileID: 21300000, guid: 4ca1c4a77f54d3946b3094c711080c51, type: 3}
+  - {fileID: 21300000, guid: cd0e5278fc7d5ff4fb47d13d0f17ccc4, type: 3}
+  - {fileID: 21300000, guid: dc881ee4ce146f545817461c9255de0e, type: 3}
+  - {fileID: 21300000, guid: beb360f9478afba45affff47f948cf3b, type: 3}
+  - {fileID: 21300000, guid: 20eea464c06fd95408f25375b2735316, type: 3}
+  - {fileID: 21300000, guid: 03bfc1426474a534c8a0d7ffc286b7e1, type: 3}
+  - {fileID: 21300000, guid: 586acbc975c68d24fb26de3e7d7d8f4d, type: 3}
+  canGrow: 0
+  growLimit: 0
+  head: {fileID: 1704315820572624, guid: 4aca6214d69532c459c29a507ca66173, type: 2}
+  damageFrequency: 0.5
+  tag: SpaceWorm
+  seekPriorityList: []

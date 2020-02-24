@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1731478355642a841bf6ab33af1f17ac, type: 3}
+  m_Name: FastEnemyBullet
+  m_EditorClassIdentifier: 
+  taggedToDamage:
+  - Player
+  - CargoShip
+  - Asteroid
+  taggedToDestroy:
+  - DestructableTiles
+  - Player
+  - CargoShip
+  - Asteroid
+  taggedToDestroyWithoutEffects:
+  - CameraWall
+  - SpawnTrigger
+  speed: 10
+  damage: 1
+  mass: 0.01
+  bulletColor: {r: 1, g: 0.051470578, b: 0.051470578, a: 1}
+  muzzleFlashColor: {r: 1, g: 0, b: 0, a: 0.78431374}
+  muzzleFlashSize: 1.5
+  bulletFiredAudio: BulletFired
+  deathAudio: BulletHit
+  deathAnim: {fileID: 1509651475627542, guid: 6934485ed990c7242b6d30c5a366c8de, type: 2}

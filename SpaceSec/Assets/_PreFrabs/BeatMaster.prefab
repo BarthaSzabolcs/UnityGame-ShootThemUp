@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1668207192221454}
+  m_IsPrefabParent: 1
+--- !u!1 &1668207192221454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4179324440511990}
+  - component: {fileID: 114609798678308400}
+  m_Layer: 0
+  m_Name: BeatMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4179324440511990
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668207192221454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114609798678308400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668207192221454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3235e1eddcbdac45b58673a25d3044f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bpm: 1
+  sounds:
+  - name: BulletFired
+    sounds:
+    - {fileID: 8300000, guid: 4353b1efbaffef5458a8725cfecc58a1, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: BulletHit
+    sounds:
+    - {fileID: 8300000, guid: a846b241c408e274cb4203c037906302, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    sounds:
+    - {fileID: 8300000, guid: 513520530f359534ca174d4967d932d5, type: 3}
+    - {fileID: 8300000, guid: cad8ca215ba15514fb15ac30701ef1d9, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: MissleFired
+    sounds:
+    - {fileID: 8300000, guid: 00fcb90f3b7857e49a0b69bd67d49eeb, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: MissleHit
+    sounds:
+    - {fileID: 8300000, guid: 0a0c890b1f4dfa1499490cfa877f844c, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Snake_Hit
+    sounds:
+    - {fileID: 8300000, guid: 7d541db19a5709344a976ec9d59f4864, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Snake_Death_Body
+    sounds:
+    - {fileID: 8300000, guid: e272282164da597449c6aa155d0fabf3, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Snake_Death_Head
+    sounds:
+    - {fileID: 8300000, guid: e272282164da597449c6aa155d0fabf3, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: AsteroidHit
+    sounds:
+    - {fileID: 8300000, guid: 3105da0782b074047af80523b697d457, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: AsteroidDestroyed
+    sounds:
+    - {fileID: 8300000, guid: 3515cdb35cc4de147aeb41d49fa82c69, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Shield_Hit
+    sounds:
+    - {fileID: 8300000, guid: 6c8e2027f0a0afe47ac5d9bae75846cf, type: 3}
+    volume: 0
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Shield_Death
+    sounds:
+    - {fileID: 8300000, guid: f5882fc3f75b8e9469e0d5af785c79c4, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: NewWaveIncoming
+    sounds:
+    - {fileID: 8300000, guid: c1e9a6f007650bd42910f98697feb69f, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: NewWaveSpawned
+    sounds:
+    - {fileID: 8300000, guid: 7a9c028d5e4b8144585b3793405e6582, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: CargoShip_Hit
+    sounds:
+    - {fileID: 8300000, guid: d15900ef88a66ac40a015e1ff07a131e, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: MetalicHit
+    sounds:
+    - {fileID: 8300000, guid: 5c875f26f19255242820ed98bc9fe877, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: CannonDestroyed
+    sounds:
+    - {fileID: 8300000, guid: 6c8e2027f0a0afe47ac5d9bae75846cf, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}

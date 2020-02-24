@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92e385ae507b2040a903c067ecf9a5f, type: 3}
+  m_Name: Rocket_exp
+  m_EditorClassIdentifier: 
+  animation:
+  - {fileID: 21300000, guid: 4b620ad5fd588694fb0086b432aa892a, type: 3}
+  - {fileID: 21300000, guid: eb16d0cf78bba1f4ab72704b3ab27e09, type: 3}
+  - {fileID: 21300000, guid: 4bf185b876431ae4e8c625f71a333a71, type: 3}
+  - {fileID: 21300000, guid: 072f802fd1d6c6d40a81125eae689cdc, type: 3}
+  - {fileID: 21300000, guid: 3a78a362c8c71924ebf2f5147f4650e4, type: 3}
+  - {fileID: 21300000, guid: bd4821b5834d4784487ba59bf392c684, type: 3}
+  - {fileID: 21300000, guid: e34c1e79402f7ab40b43192945965865, type: 3}
+  - {fileID: 21300000, guid: eda3737a14e3b70459ea292c6de62956, type: 3}
+  - {fileID: 21300000, guid: 50ca9eff17b29d244b5d481a10b62df6, type: 3}

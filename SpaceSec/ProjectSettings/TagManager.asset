@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CameraWall
+  - Asteroid
+  - CargoShip
+  - SpaceWorm
+  - SpaceWormHead
+  - FriendlyBullet
+  - SpaceWormTail
+  - Shield
+  - DestructableTiles
+  - EnemyShip
+  - SpawnTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - SpaceWorm
+  - Asteroids
+  - CameraWalls
+  - SpawnWall
+  - EnemyBullet
+  - FriendlyBullet
+  - TileDestructor
+  - EnemyShip
+  - Player
+  - AbilityButtons
+  - Shield
+  - ShieldedPlayer
+  - CargoShip
+  - DestructableTiles
+  - SpawnTrigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 2596407137
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SpaceWorm
+    uniqueID: 459790937
+    locked: 0
+  - name: Player
+    uniqueID: 1753223761
+    locked: 0
+  - name: Bullets
+    uniqueID: 1937911337
+    locked: 0
+  - name: Shield
+    uniqueID: 920543317
+    locked: 0
+  - name: UI
+    uniqueID: 3881108787
+    locked: 0

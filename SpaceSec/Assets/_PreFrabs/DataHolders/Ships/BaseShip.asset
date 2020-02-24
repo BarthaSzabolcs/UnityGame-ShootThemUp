@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31175f436944cb4489aad4a8ede8fa8, type: 3}
+  m_Name: BaseShip
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  flashOnHealthChange: 1
+  flashTime: 1
+  deathAnim: {fileID: 0}
+  hitAudio: CargoShip_Hit
+  deathAudio: PlayerDeath
+  shipName: KvibKvib
+  shipSprite: {fileID: 21300000, guid: ccd45f8fb4d0fb3498374fd67634b2cd, type: 3}
+  windowSprite: {fileID: 0}
+  windowColor: {r: 0, g: 0, b: 0, a: 0}
+  paintJobSprite: {fileID: 21300000, guid: 35a115da442dc9e4684d93073415e00c, type: 3}
+  paintJobColor: {r: 0.5441177, g: 0, b: 0, a: 1}
+  turret: {fileID: 1718262492371354, guid: a9cc76b625e636c4691e7c04c1585252, type: 2}
+  turrets:
+  - {fileID: 11400000, guid: 83421f82be65bdf4facd118d838f0a0a, type: 2}
+  - {fileID: 11400000, guid: 83421f82be65bdf4facd118d838f0a0a, type: 2}
+  - {fileID: 11400000, guid: 83421f82be65bdf4facd118d838f0a0a, type: 2}
+  mainCannonPos: {x: 0, y: 1.9}
+  secondaryCannonPos: {x: 1.4, y: -0.2}
+  abilities:
+  - {fileID: 11400000, guid: 96ca622d4c46c6f42830893391c2fd25, type: 2}
+  - {fileID: 11400000, guid: f9ccb6b0e53e0a8488b4b3374f0f3997, type: 2}
+  - {fileID: 11400000, guid: ee28190e13a15d2419f93e3d14a8aaf8, type: 2}
+  timeSlowScale: 0.33
+  speed: 200
+  fingerOffSet: {x: 0, y: 6, z: 0}

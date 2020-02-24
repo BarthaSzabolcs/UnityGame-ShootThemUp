@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3a80d94a3f3234eae3d09c46fb472c, type: 3}
+  m_Name: CargoShipShield
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  flashOnHealthChange: 0
+  flashTime: 1
+  deathAnim: {fileID: 1509651475627542, guid: 3247b4e5b8c5e954e8c2e1239150d3ab, type: 2}
+  hitAudio: Shield_Hit
+  deathAudio: Shield_Death

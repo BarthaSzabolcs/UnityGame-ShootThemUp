@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16dd55db7abce044a224e9d3703464a, type: 3}
+  m_Name: PlayerShield
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  flashOnHealthChange: 0
+  flashTime: 0
+  deathAnim: {fileID: 1509651475627542, guid: 3247b4e5b8c5e954e8c2e1239150d3ab, type: 2}
+  hitAudio: Shield_Hit
+  deathAudio: Shield_Death
+  baseColor: {r: 1, g: 0, b: 0, a: 0.78431374}
+  shieldPhases:
+  - {fileID: 21300000, guid: 985c3bf6dfb84c747b4b20c1cecc144e, type: 3}
+  - {fileID: 21300000, guid: a4e38231a2cd6f34c9726d6ea20793e5, type: 3}
+  - {fileID: 21300000, guid: f062cd67a4d409d4c93e54e26d086cdf, type: 3}
+  - {fileID: 21300000, guid: f64f51f7565101f478d4f852670f04bc, type: 3}
+  - {fileID: 21300000, guid: f64f51f7565101f478d4f852670f04bc, type: 3}
+  - {fileID: 21300000, guid: daea6f34e60eb4440abf97a495e2cdf0, type: 3}
+  colorOptions: 00000000030000000000000001000000
+  lifeDrainSpeed: 0.1
+  lifeDrain: 1

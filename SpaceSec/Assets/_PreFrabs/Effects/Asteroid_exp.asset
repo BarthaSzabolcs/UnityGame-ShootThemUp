@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92e385ae507b2040a903c067ecf9a5f, type: 3}
+  m_Name: Asteroid_exp
+  m_EditorClassIdentifier: 
+  animation:
+  - {fileID: 21300000, guid: 9ebfba6ef8abc3e4fbf1dceadd0f418b, type: 3}
+  - {fileID: 21300000, guid: 17cd6d46172002f44bbafdf3db935126, type: 3}
+  - {fileID: 21300000, guid: 7c1014bc612ac2c40851ab3e27a18eaf, type: 3}
+  - {fileID: 21300000, guid: 7c29a023ec1c4e34791388c20e29ffc1, type: 3}
+  - {fileID: 21300000, guid: a54ccaf7f57129b4ebd4a851888dfa1c, type: 3}
+  - {fileID: 21300000, guid: 49ba767bc51cbf047852c1ef76aa036e, type: 3}
+  - {fileID: 21300000, guid: c37d6ed0ce6e80a4f8f721f150c9e12f, type: 3}
+  - {fileID: 21300000, guid: 0eb6f07c0e441cf49ae308d26afa2287, type: 3}
+  - {fileID: 21300000, guid: bf279418feb67ef4493e9116acf843d5, type: 3}
+  - {fileID: 21300000, guid: 3878cd8e7d280bd47827dd501d994f41, type: 3}
+  - {fileID: 21300000, guid: 937392db9b940474fbd7345a377246c7, type: 3}
+  - {fileID: 21300000, guid: 5a7fd2c230eaa3b439fcf225c75acbee, type: 3}
+  - {fileID: 21300000, guid: 73f3d15cc971c074a91001f421e5c21b, type: 3}

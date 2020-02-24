@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5067982c7d53304dad889d4e86dcf26, type: 3}
+  m_Name: E_ShipTurret
+  m_EditorClassIdentifier: 
+  patternData: {fileID: 11400000, guid: 234a3f2304e41d742a244eae6f112f80, type: 2}
+  lvlTreshold: 1
+  turretName: 
+  leftTurret: {fileID: 21300000, guid: 407f43aceb75a9c40a5515dc88a64d93, type: 3}
+  centerTurret: {fileID: 21300000, guid: 407f43aceb75a9c40a5515dc88a64d93, type: 3}
+  rightTurret: {fileID: 21300000, guid: 407f43aceb75a9c40a5515dc88a64d93, type: 3}
+  sortingOrder: -2
+  bullet: {fileID: 1393141831728576, guid: 0df66a38a30d8c84fafebd33988e9ebd, type: 2}
+  muzzleFlashSprite: {fileID: 21300000, guid: 5d3fece6e79c2914185e951e2cb6cb57, type: 3}
+  baseFireRate: 2
+  currentFireRate: 0
+  lastFired: 0
+  muzzleFlashRenderer: {fileID: 0}
+  barrel: {x: 0, y: 0.5}
+  turretLVL: 1

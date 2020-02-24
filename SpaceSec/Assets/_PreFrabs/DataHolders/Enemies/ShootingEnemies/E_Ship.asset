@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68582f8b3cd03b146a995c80525d54ed, type: 3}
+  m_Name: E_Ship
+  m_EditorClassIdentifier: 
+  maxHealth: 20
+  flashOnHealthChange: 1
+  flashTime: 1
+  deathAnim: {fileID: 1509651475627542, guid: 3247b4e5b8c5e954e8c2e1239150d3ab, type: 2}
+  hitAudio: MetalicHit
+  deathAudio: CannonDestroyed
+  followPlayer: 1
+  turretPositions:
+  - {x: 0, y: 1.9}
+  turretTypes:
+  - {fileID: 11400000, guid: 530b9f76c0392974296c7fbbaa7093f1, type: 2}
+  rotateTurretsOnly: 1
