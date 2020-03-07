@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,5 +16,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8c22fa9bc7f65e446a3637cb32663df0, type: 2}
   - {fileID: 11400000, guid: 91831d9828f514947b44bfba85a01615, type: 2}
   - {fileID: 11400000, guid: 477cca814bf54484dacbc49898ee425f, type: 2}
-  timeBeforeWave: 3
+  timeBeforeWave: 1.5
   waveDescription: A Pack of SpaceWorms Closing In!

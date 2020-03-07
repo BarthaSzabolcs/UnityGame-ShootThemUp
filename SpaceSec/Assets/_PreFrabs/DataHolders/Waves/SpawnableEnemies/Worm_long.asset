@@ -3,19 +3,20 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3743ca0bca79754c808239250df04b0, type: 3}
   m_Name: Worm_long
   m_EditorClassIdentifier: 
-  spawnWeight: 0.025
-  spawnValue: 9
+  spawnWeight: 0.05
+  spawnValue: 27
   pointBeforeSpawn: 10
-  spawnDelay: 4
-  worm: {fileID: 1704315820572624, guid: 4aca6214d69532c459c29a507ca66173, type: 2}
+  spawnDelay: 2.25
+  worm: {fileID: 1704315820572624, guid: 4aca6214d69532c459c29a507ca66173, type: 3}
   length: 6
   spawnDistance: 1.75
   spawnPositions:
@@ -24,7 +25,3 @@ MonoBehaviour:
   - {x: 0, y: 30}
   - {x: -5, y: 30}
   - {x: -10, y: 30}
-  - {x: -20, y: 20}
-  - {x: 20, y: 20}
-  - {x: -20, y: 10}
-  - {x: 20, y: 10}

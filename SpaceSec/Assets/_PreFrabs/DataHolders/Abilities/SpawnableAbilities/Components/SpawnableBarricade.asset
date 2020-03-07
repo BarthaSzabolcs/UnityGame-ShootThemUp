@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,8 +13,8 @@ MonoBehaviour:
   m_Name: SpawnableBarricade
   m_EditorClassIdentifier: 
   maxHealth: 30
-  flashOnHealthChange: 1
+  flashOnHealthChange: 0
   flashTime: 1
-  deathAnim: {fileID: 1509651475627542, guid: 3247b4e5b8c5e954e8c2e1239150d3ab, type: 2}
+  deathAnim: {fileID: 1509651475627542, guid: 3247b4e5b8c5e954e8c2e1239150d3ab, type: 3}
   hitAudio: 
   deathAudio: 

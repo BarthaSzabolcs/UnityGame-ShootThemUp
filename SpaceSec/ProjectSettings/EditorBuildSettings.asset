@@ -9,20 +9,24 @@ EditorBuildSettings:
     path: Assets/_Scenees/StartScene.unity
     guid: e9378cc71ea986b4496c9a40404d2ee3
   - enabled: 1
-    path: Assets/_Scenees/Test_Endless.unity
+    path: Assets/_Scenees/Endless_Base.unity
+    guid: f612c1d3998b136468f9a38f51f4834b
+  - enabled: 1
+    path: Assets/_Scenees/Endless_Worms.unity
     guid: f7a271791e7785b4c9bd5d49b9820708
   - enabled: 0
     path: 
-    guid: 7de206a81c5f60e4b9fe81da220823fd
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/_Scenees/Test_Tile_MapLevel.unity
-    guid: 40a8d1dfca5911840b41515220870d2e
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_Scenees/Level 2.unity
     guid: 32a7e747a95a7384f93593f2bb773652
+  - enabled: 1
+    path: Assets/_Scenees/Test_Tile_MapLevel.unity
+    guid: 40a8d1dfca5911840b41515220870d2e
+  m_configObjects: {}
