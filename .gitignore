@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Added by me
+SpaceSec/Library/
+SpaceSec/Temp/
+SpaceSec/Object/
+SpaceSec/obj/
+_Builds/
+_Docs/
